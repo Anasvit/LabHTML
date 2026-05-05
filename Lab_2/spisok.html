@@ -1,0 +1,60 @@
+
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title> Лаб 2.1 </title>
+        <link type="Image/x-icon" href="https://cdn-icons-png.flaticon.com/512/5116/5116142.png" rel="icon">
+        <link type="text/css" href="spisok.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <img class="header-icon" src="https://cdn-icons-png.flaticon.com/512/386/386715.png" alt="icon">
+            <h1 class="title">Список дел</h1>
+        </div>
+
+        <form>
+            <input type="text" placeholder="Новый элемент списка">
+            <button class="btn">Создать</button>
+            <button class="btn-clear">Очистить всё</button>
+        </form>
+
+        <div class="todo-container">
+            <ol>
+                <li>
+                    <label class="task-label">
+                        <input type="checkbox">
+                        <div class="task-text">
+                            <span>Почесать кошку</span>
+                            <sub>от 14.08.2023</sub>
+                        </div>
+                        <button class="btn-delete">✖</button>
+                    </label>
+                </li>
+                <li>
+                    <label class="task-label">
+                        <input type="checkbox">
+                        <div class="task-text">
+                            <span>Полить картошку</span>
+                            <sub>от 04.05.2022</sub>
+                        </div>
+                        <button class="btn-delete">✖</button>
+                    </label>
+                </li>
+                <li>
+                    <label class="task-label">
+                        <input type="checkbox">
+                        <div class="task-text">
+                            <span>Сложить в лукошко</span>
+                            <sub>от 19.05.2022</sub>
+                        </div>
+                        <button class="btn-delete">✖</button>
+                    </label>
+                </li>
+            </ol>
+        </div>
+        <footer>
+            <hr>
+            <p>Copyright ©</p>
+        </footer> 
+    </body>
+</html>

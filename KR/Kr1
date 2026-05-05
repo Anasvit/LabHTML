@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Header</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="left">
+                    <span>График работы: <br> Пн-Пт с 9:00 до 18:00 Сб-Вс с 12:00 до 17:00</span>
+                </div>
+                <div class="center">
+                    <span>Email: <br> info@example.com</span>
+                </div>
+                <div class="right">
+                    <span>+7 000 000 00 00 <br> +7 000 000 00 00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">
+                    <div class="logo-box">LOGO</div>
+                    <div class="logo-text">
+                        <h1>Название компании</h1>
+                        <p>Ландшафтный дизайн</p>
+                    </div>
+                </div>
+
+                <nav class="menu">
+                    <a href="#">ГЛАВНАЯ СТРАНИЦА</a>
+                    <a href="#">ДОБРО ПОЖАЛОВАТЬ</a>
+                    <a href="#">О КОМПАНИИ</a>
+                    <a href="#">НОВОСТИ</a>
+                    <a href="#">ОТЗЫВЫ О НАС</a>
+                    <a href="#">КОНТАКТЫ</a>
+                    <a href="#">РЕГИСТРАЦИЯ</a>
+                    <a href="#">ДОСТАВКА</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-image">
+            <img src="https://rutrav.ru/images/articles/landshaftnyj-dizajn-na-malenkom-uchastke-5.jpg" alt="Ландшафтный дизайн">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-text">
+                    <span class="hero-small">Ландшафтный дизайн</span>
+                    <h1>БЛАГОУСТРОЙСТВО<br>И ОЗЕЛЕНЕНИЕ УЧАСТКА</h1>
+                    <a href="#" class="hero-btn">ЗАКАЗАТЬ ПРОЕКТ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </body>
+</html>
+

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JS 6</title>
+        <script src="script.js"></script>
+        <style>
+            body {
+                font-family: Arial;
+                padding: 25px;
+                background: #f4f4f4;
+            }
+
+            .block {
+                background: white;
+                padding: 20px;
+                margin-bottom: 15px;
+                border: 1px solid #dddddd;
+            }
+
+            button {
+                padding: 8px 15px;
+                margin: 4px;
+            }
+
+            #answer {
+                min-height: 80px;
+                background: white;
+                border: 1px solid #999999;
+                padding: 10px;
+                white-space: pre-wrap;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>JavaScript: массивы и генераторы</h1>
+
+        <div class="block">
+            <h2>Массивы</h2>
+            <button onclick="arrayTask1()">Задача 1</button>
+            <button onclick="arrayTask2()">Задача 2</button>
+            <button onclick="arrayTask3()">Задача 3</button>
+        </div>
+
+        <div class="block">
+            <h2>Генераторы, Map и BigInt</h2>
+            <button onclick="generatorTask1()">Задача 1</button>
+            <button onclick="generatorTask2()">Задача 2</button>
+        </div>
+
+        <h2>Ответ</h2>
+        <div id="answer"></div>
+    </body>
+</html>

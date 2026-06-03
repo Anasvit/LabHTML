@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Прогноз погоды</h1>
+
+        <div class="search-box">
+            <input id="city-search" placeholder="Введите город">
+            <button onclick="searchCity()">Поиск</button>
+            <button onclick="loadUserLocation()" class="gray-btn">Моё местоположение</button>
+        </div>
+
+        <div id="location-details">Определение местоположения...</div>
+
+        <div class="weather-carousel">
+            <button onclick="showPrev()" class="arrow-btn">&lt;</button>
+
+            <div class="weather-card" id="weather-display">
+                <p>Загрузка...</p>
+            </div>
+
+            <button onclick="showNext()" class="arrow-btn">&gt;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
